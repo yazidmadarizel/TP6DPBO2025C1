@@ -50,10 +50,11 @@ Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan 
    * UI diperbarui (score, posisi karakter, dan pipa)
 
 ### Mekanisme Pipa
-1. Timer pipesCooldown memicu pembuatan pipa setiap 1.5 detik
-2. Pipa muncul dari sisi kanan layar dengan posisi Y acak
-3. Pipa bergerak ke kiri dengan kecepatan konstan
-4. Pipa dihapus dari memori setelah melewati batas layar kiri
+1. Pipa baru dibuat secara berkala dengan Timer
+2. Pipa muncul dari sisi kanan layar
+3. Pipa bergerak dari kanan ke kiri dengan kecepatan tetap
+4. Posisi vertikal pipa diacak untuk menciptakan variasi
+5. Celah antara pipa atas dan bawah adalah tempat burung harus melewati
 
 ### Kontrol Pemain
 1. Pemain menekan SPACE untuk membuat burung melompat
@@ -102,3 +103,9 @@ Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan 
 5. **Main Menu**
    * Antarmuka awal yang menampilkan tombol start
    * Transisi halus dari menu ke permainan
+  
+## Dokumentasi Program
+
+https://github.com/user-attachments/assets/e79dcb9a-3ce5-4807-a67a-9d0987aa59cd
+
+
