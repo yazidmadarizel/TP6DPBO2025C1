@@ -10,23 +10,28 @@ Saya Yazid Madarizel dengan NIM 2305328 mengerjakan soal TP 6 dalam mata kuliah 
 Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan Java Swing. Berikut adalah penjelasan mengenai desain dan alur program:
 
 ### Struktur Kelas
-1. **Kelas MainMenu**
+
+1. **Kelas App**
+   * Merupakan kelas utama aplikasi yang menjalankan program secara keseluruhan  
+   * Menjadi titik masuk `main()` dari program  
+
+2. **Kelas MainMenu**
    * Merupakan titik awal program yang menampilkan menu utama
    * Menampilkan tombol "Start Game" untuk memulai permainan
    * Menampilkan judul game dan background
 
-2. **Kelas FlappyBird**
+3. **Kelas FlappyBird**
    * Kelas utama permainan yang mengatur gameplay dan logika
    * Mengimplementasikan ActionListener untuk game loop
    * Mengimplementasikan KeyListener untuk input pemain
    * Mengelola render grafis dan collision detection
 
-3. **Kelas Player**
+4. **Kelas Player**
    * Merepresentasikan model data untuk karakter burung pemain
    * Menyimpan posisi, dimensi, dan kecepatan
    * Memiliki metode getter dan setter untuk semua atribut
 
-4. **Kelas Pipe**
+5. **Kelas Pipe**
    * Merepresentasikan model data untuk rintangan pipa
    * Menyimpan posisi, dimensi, kecepatan, dan status
    * Memiliki atribut penanda untuk mekanisme penilaian skor
