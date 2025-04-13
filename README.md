@@ -5,7 +5,9 @@ Saya Yazid Madarizel dengan NIM 2305328 mengerjakan soal TP 6 dalam mata kuliah 
 ---
 
 ## Desain Program
-![TP6 drawio](https://github.com/user-attachments/assets/c039081e-3601-490d-9729-743a187d45f0)
+
+![TP6 drawio (1)](https://github.com/user-attachments/assets/52061cb3-296e-46f4-ae75-c8c7a05e4baf)
+
 
 Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan Java Swing. Berikut adalah penjelasan mengenai desain dan alur program:
 
@@ -13,7 +15,11 @@ Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan 
 
 1. **Kelas App**
    * Merupakan kelas utama aplikasi yang menjalankan program secara keseluruhan  
-   * Menjadi titik masuk `main()` dari program  
+   * Menginisialisasi dan menampilkan jendela permainan (JFrame)
+   * Menentukan alur transisi antar layar, seperti dari MainMenu ke FlappyBird
+   * Mengatur ukuran layar, visibilitas, dan pengaturan dasar window
+   * Menjadi titik masuk main() dari program
+
 
 2. **Kelas MainMenu**
    * Merupakan titik awal program yang menampilkan menu utama
