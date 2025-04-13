@@ -1,19 +1,7 @@
-import javax.swing.*;
+import javax.swing.SwingUtilities;
 
 public class App {
     public static void main(String[] args) {
-        // buat sebuah frame
-        JFrame frame = new JFrame("Flappy Bird");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(368, 640);
-        frame.setLocationRelativeTo(null);
-        frame.setResizable(false);
-
-        // buat objek JPanel
-        FlappyBird flappyBird = new FlappyBird();
-        frame.add(flappyBird);
-        frame.pack();
-        flappyBird.requestFocus();
-        frame.setVisible(true);
+        SwingUtilities.invokeLater(MainMenu::new);
     }
 }
