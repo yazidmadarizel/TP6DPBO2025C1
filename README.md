@@ -5,6 +5,8 @@ Saya Yazid Madarizel dengan NIM 2305328 mengerjakan soal TP 6 dalam mata kuliah 
 ---
 
 ## Desain Program
+![Copy of TP6 drawio](https://github.com/user-attachments/assets/fd47dfee-b358-43b0-926b-f882fd506b88)
+
 Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan Java Swing. Berikut adalah penjelasan mengenai desain dan alur program:
 
 ### Struktur Kelas
@@ -105,12 +107,6 @@ Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan 
    * Transisi halus dari menu ke permainan
   
 ## Dokumentasi Program
-
-![main menu](https://github.com/user-attachments/assets/ac2a6f10-53f7-4a8c-992a-b3931b88ca9c)
-
-![game mulai](https://github.com/user-attachments/assets/2ee00dd0-1730-4893-99b1-35dfccabd620)
-
-![game over](https://github.com/user-attachments/assets/024fd449-a4f1-412d-b0b9-ef18f6a44eb0)
 
 ![score](https://github.com/user-attachments/assets/aed3bc9d-e4f5-4ac6-8633-b8997a22bae4)
 
