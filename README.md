@@ -108,8 +108,6 @@ Game Flappy Bird ini mengimplementasikan sebuah permainan sederhana menggunakan 
   
 ## Dokumentasi Program
 
-![score](https://github.com/user-attachments/assets/aed3bc9d-e4f5-4ac6-8633-b8997a22bae4)
-
 https://github.com/user-attachments/assets/e79dcb9a-3ce5-4807-a67a-9d0987aa59cd
 
 
