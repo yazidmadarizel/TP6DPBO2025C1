@@ -1,4 +1,3 @@
-// MainMenu.java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -32,20 +31,14 @@ public class MainMenu extends JFrame {
         };
         mainPanel.setLayout(null);
 
-        // Start button
         startButton = new JButton("Start Game");
         startButton.setFont(new Font("Arial", Font.BOLD, 24));
         startButton.setFocusPainted(false);
         startButton.setBackground(new Color(76, 175, 80));
         startButton.setForeground(Color.WHITE);
-
         startButton.setBounds(90, 200, 180, 50);
-        startButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                startGame();
-            }
-        });
+
+        startButton.addActionListener(e -> startGame());
 
         mainPanel.add(startButton);
         add(mainPanel);
@@ -54,15 +47,6 @@ public class MainMenu extends JFrame {
 
     private void startGame() {
         this.dispose();
-
-        JFrame frame = new JFrame("Flappy Bird");
-        FlappyBird game = new FlappyBird();
-        frame.add(game);
-        frame.pack();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(false);
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        new App();
     }
-
 }
